@@ -125,10 +125,6 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 
 	}
 
-	public <X> void afterGetScreenshotAs(OutputType<X> arg0, X arg1) {
-		
-	}
-
 	public void afterGetText(WebElement arg0, WebDriver arg1, String arg2) {		
 	}
 
@@ -144,5 +140,11 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
 
 	public void beforeSwitchToWindow(String arg0, WebDriver arg1) {
 		// TODO Auto-generated method stub	
+	}
+
+	@Override
+	public <X> void afterGetScreenshotAs(OutputType<X> arg0, X arg1) {
+		// TODO Auto-generated method stub
+		
 	}
 }
